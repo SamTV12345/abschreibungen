@@ -4,9 +4,9 @@
 name: Upload release binary
 
 on:
-  release:
-    types: [created]
-
+  push:
+    branches:
+      - master
 
 jobs:
   upload-linux:

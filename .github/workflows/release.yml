@@ -5,8 +5,8 @@ name: Upload release binary
 
 on:
   push:
-    branches:
-      - master
+    tags:
+      - '*'
 
 jobs:
   upload-linux:
